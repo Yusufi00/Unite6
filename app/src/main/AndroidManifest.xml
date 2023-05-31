@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.unite5_gelisimizkonular">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/uyg1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Unite5_GelisimizKonular"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity android:name=".Uyg1" ></activity>
+        <activity android:name=".Uyg2"></activity>
+        <activity android:name=".uyg3.Uyg3"></activity>
+        <activity android:name=".Uyg4" ></activity>
+        <activity android:name=".Uyg5" ></activity>
+        <activity android:name=".Uyg6" ></activity>
+        <activity android:name=".Uyg7" ></activity>
+        <activity android:name=".Uyg8" ></activity>
+        <activity android:name=".Uyg9" ></activity>
+        <activity android:name=".Uyg10" ></activity>
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/satirUrunResmi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitCenter"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/satirUrunAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Ürün Adı"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/satirUrunFiyat"
+            android:layout_width="212dp"
+            android:layout_height="164dp"
+            android:padding="5dp"
+            android:text="Ürün Fiyatı"
+            android:textColor="#dd2c00"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnDegistir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnDegistir"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnSil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnSil"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnGeri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnGeri"
+            android:text="Button" />
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/satirUrunAdet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="999"
+        android:textColor="#f50057"
+        android:textSize="18sp" />
+
+</LinearLayout>

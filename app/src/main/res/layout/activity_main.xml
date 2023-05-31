@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6737110"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/uyg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="#E41219"
+        android:onClick="uyg1Goster"
+        android:text="1.Uygulama"
+        app:layout_constraintBottom_toTopOf="@+id/uyg2"
+        app:layout_constraintStart_toStartOf="@+id/uyg2"
+        app:strokeColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/uyg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#235AAA"
+        android:onClick="uyg3Goster"
+        android:text="Uygulama 3"
+        app:layout_constraintBottom_toTopOf="@+id/uyg4"
+        app:layout_constraintStart_toStartOf="@+id/uyg4" />
+
+    <Button
+        android:id="@+id/uyg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#CAA530"
+        android:onClick="uyg7Goster"
+        android:text="Uygulama  7"
+        app:layout_constraintBottom_toTopOf="@+id/uyg8"
+        app:layout_constraintStart_toStartOf="@+id/uyg8" />
+
+    <Button
+        android:id="@+id/uyg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#B5BA1D"
+        android:onClick="uyg2Goster"
+        android:text="2.Uygulama "
+        app:layout_constraintBottom_toTopOf="@+id/uyg3"
+        app:layout_constraintStart_toStartOf="@+id/uyg3" />
+
+    <Button
+        android:id="@+id/uyg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#D14E1D"
+        android:onClick="uyg4Goster"
+        android:text="Uygulama 4"
+        app:layout_constraintBottom_toTopOf="@+id/uyg5"
+        app:layout_constraintStart_toStartOf="@+id/uyg5" />
+
+    <Button
+        android:id="@+id/uyg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#7B179F"
+        android:onClick="uyg6Goster"
+        android:text="Uygulama 6"
+        app:layout_constraintBottom_toTopOf="@+id/uyg7"
+        app:layout_constraintStart_toStartOf="@+id/uyg7" />
+
+    <Button
+        android:id="@+id/uyg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#00BCD4"
+        android:onClick="uyg8Goster"
+        android:text="Uygulama 8"
+        app:layout_constraintBottom_toTopOf="@+id/uyg9"
+        app:layout_constraintStart_toStartOf="@+id/uyg9" />
+
+    <Button
+        android:id="@+id/uyg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#113C0C"
+        android:onClick="uyg9Goster"
+        android:text="Uygulama 9"
+        app:layout_constraintBottom_toTopOf="@+id/uyg10"
+        app:layout_constraintStart_toStartOf="@+id/uyg10" />
+
+    <Button
+        android:id="@+id/uyg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="#594419"
+        android:onClick="uyg5Goster"
+        android:text="Uygulama 5"
+        app:layout_constraintBottom_toTopOf="@+id/uyg6"
+        app:layout_constraintStart_toStartOf="@+id/uyg6" />
+
+    <Button
+        android:id="@+id/uyg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="#46D612"
+        android:onClick="uyg10Goster"
+        android:text="Uygulama 10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
